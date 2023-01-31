@@ -10,8 +10,12 @@ const Navbar = () => {
        </Link>
 
       <nav class="d-inline-flex mt-2 mt-md-0 ms-md-auto mx-5">
+      <Link to={"/Login"}>
         <button className="btn btn-danger px-4 " style={{fontWeight:"bold"}}>Log In</button>
+      </Link>
+      <Link to={"Register"}>
         <button className="btn btn-outline-success mx-3 px-4 "style={{fontWeight:"bold"}}>Register</button>
+      </Link>
       </nav>
     </div>
     </div>
